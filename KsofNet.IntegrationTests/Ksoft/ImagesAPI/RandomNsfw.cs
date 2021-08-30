@@ -1,4 +1,4 @@
-﻿using KsofNet.IntegrationTests.Fixtures;
+﻿using KSoftNet.IntegrationTests.Fixtures;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,13 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace KsofNet.IntegrationTests.Ksoft.ImagesAPI
+namespace KSoftNet.IntegrationTests.KSoft.ImagesAPI
 {
-    public class RandomNsfw : IClassFixture<KsoftApiFixture>
+    public class RandomNsfw : IClassFixture<KSoftApiFixture>
     {
-        KsoftApiFixture fixture;
+        KSoftApiFixture fixture;
 
-        public RandomNsfw(KsoftApiFixture fixture)
+        public RandomNsfw(KSoftApiFixture fixture)
         {
             this.fixture = fixture;
         }

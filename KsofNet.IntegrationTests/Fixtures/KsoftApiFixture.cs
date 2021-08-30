@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KsofNet.IntegrationTests.Fixtures
+namespace KSoftNet.IntegrationTests.Fixtures
 {
-    public class KsoftApiFixture : IDisposable
+    public class KSoftApiFixture : IDisposable
     {
         public IConfiguration Configuration { get; }
 
-        public KsoftApiFixture()
+        public KSoftApiFixture()
         {
             Configuration = new ConfigurationBuilder().AddJsonFile("secrets.json").Build();
         }
