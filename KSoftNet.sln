@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSoftNet.Tests", "KSoftNet.Tests\KSoftNet.Tests.csproj", "{EB16AA43-EFC8-468F-B112-33EB944B0D08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KsofNet.IntegrationTests", "KsofNet.IntegrationTests\KsofNet.IntegrationTests.csproj", "{3EBADBFE-6138-4F29-B433-E904BD14DE88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,12 +28,16 @@ Global
 		{EB16AA43-EFC8-468F-B112-33EB944B0D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB16AA43-EFC8-468F-B112-33EB944B0D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB16AA43-EFC8-468F-B112-33EB944B0D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBADBFE-6138-4F29-B433-E904BD14DE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBADBFE-6138-4F29-B433-E904BD14DE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBADBFE-6138-4F29-B433-E904BD14DE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBADBFE-6138-4F29-B433-E904BD14DE88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		BuildVersion_StartDate = 2000/1/1
 		SolutionGuid = {69C845EF-3DC5-49C2-991C-BB451F3DC907}
+		BuildVersion_StartDate = 2000/1/1
 	EndGlobalSection
 EndGlobal
