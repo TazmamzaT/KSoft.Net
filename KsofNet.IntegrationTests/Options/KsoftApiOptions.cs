@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace KSoftNet.IntegrationTests.Options
 {
-    public class KsoftApiOptions
+    public class KSoftApiOptions
     {
-        public const string KsoftApi = "KsoftApi";
+        public const string KSoftApi = "KsoftApi";
 
         public string ApiToken { get; set; }
     }
