@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSoftNet.Tests", "KSoftNet.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KsofNet.IntegrationTests", "KsofNet.IntegrationTests\KsofNet.IntegrationTests.csproj", "{3EBADBFE-6138-4F29-B433-E904BD14DE88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F3E0D106-44D3-4165-887F-5AA0FF5EF675}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB16AA43-EFC8-468F-B112-33EB944B0D08} = {F3E0D106-44D3-4165-887F-5AA0FF5EF675}
+		{3EBADBFE-6138-4F29-B433-E904BD14DE88} = {F3E0D106-44D3-4165-887F-5AA0FF5EF675}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69C845EF-3DC5-49C2-991C-BB451F3DC907}
