@@ -16,5 +16,11 @@ namespace KsofNet.IntegrationTests.Ksoft.ImagesAPI
         {
             this.fixture = fixture;
         }
+
+        [Fact]
+        public void OneEqualsOne()
+        {
+            Assert.Equal(1, 1);
+        }
     }
 }
