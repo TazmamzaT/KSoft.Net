@@ -8,7 +8,7 @@ namespace KSoftNet.IntegrationTests.Options
 {
     public class KSoftApiOptions
     {
-        public const string KSoftApi = "KsoftApi";
+        public const string KSoftApi = "KSoftApi";
 
         public string ApiToken { get; set; }
     }
