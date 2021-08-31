@@ -18,9 +18,17 @@ namespace KSoftNet.IntegrationTests.KSoft.ImagesAPI
         }
 
         [Fact]
-        public void OneEqualsOne()
+        public async Task PostEndsWithGif()
         {
-            Assert.Equal(1, 1);
+            var post = await fixture.KSoftAPI.imagesAPI.RandomNsfw(true);
+            Assert.EndsWith(".gif", post.ImageUrl);
+        }
+
+        [Fact]
+        public async Task PostEndsWithNotGif()
+        {
+            var post = await fixture.KSoftAPI.imagesAPI.RandomNsfw(true);
+            Assert.DoesNotContain(".gif", post.ImageUrl);
         }
     }
 }
