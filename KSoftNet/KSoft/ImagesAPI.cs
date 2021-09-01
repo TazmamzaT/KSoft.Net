@@ -90,7 +90,7 @@ namespace KSoftNet.KSoft {
         /// <param name="gifs">Default: false, if to retrieve gifs instead of images</param>
         /// <returns>KSoftRedditPost</returns>
         public async Task<KSoftRedditPost> RandomNsfw(bool gifs) {
-            var queries = new NameValueCollection {{"gifs", gifs.ToString()}};
+            var queries = new NameValueCollection {{"gifs", gifs.ToString().ToLower()}};
 
             return await _kSoftAPI.ExecuteAsync<KSoftRedditPost>(HttpMethod.Get, "images/random-nsfw", queries);
         }
